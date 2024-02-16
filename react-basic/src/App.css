@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  border: 1px solid #222;
+  padding: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+nav a:active {
+  background-color: slateblue;
+  color: #fff;
+}
